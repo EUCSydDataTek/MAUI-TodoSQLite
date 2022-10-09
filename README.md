@@ -8,6 +8,8 @@ For more information about the sample see Local Databases with SQlite documentai
 
 Ref.: [.NET MAUI - Local Database with SQLite](https://github.com/dotnet/maui-samples/tree/main/6.0/Data/TodoSQLite)
 
+[Store local data with SQLite in a .NET MAUI app](https://learn.microsoft.com/en-us/training/modules/store-local-data/)
+
 &nbsp;
 
 ### Libraries
