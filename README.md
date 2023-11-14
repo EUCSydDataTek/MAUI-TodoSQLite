@@ -16,3 +16,9 @@ Ref.: [.NET MAUI - Local Database with SQLite](https://github.com/dotnet/maui-sa
 
 - sqlite-net-pcl
 - SQLitePCLRaw.bundle_green
+
+&nbsp;
+
+### Ved problemer
+Hvis der er problemer med at oprette en connection kan det være nødvendigt at slette en tidligere database.
+Dette kan gøres ved at slette App'en fra emulator eller telefon.
