@@ -1,4 +1,5 @@
-﻿using TodoSQLite.Data;
+﻿using Microsoft.Extensions.Logging;
+using TodoSQLite.Data;
 using TodoSQLite.Views;
 
 namespace TodoSQLite;
@@ -21,6 +22,11 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<TodoItemDatabase>();
 
+#if DEBUG
+        builder.Logging.AddDebug();
+#endif
+
         return builder.Build();
-	}
+    }
 }
+
